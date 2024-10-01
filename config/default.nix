@@ -7,6 +7,8 @@
 		./vimtex.nix
 		./lsp
 		./treesitter
+
+		./plugins.nix
 	];
 
 	viAlias = true;
