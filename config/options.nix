@@ -14,6 +14,8 @@
 		mouse = "a";
 		swapfile = false;
 		undofile = true;
+		backup = false;
+		writebackup = false;
 		termguicolors = true;
 
 		# UI
@@ -21,6 +23,7 @@
 		cursorline = true;
 		signcolumn = "yes";
 		showmode = false;
+		ruler = false;
 
 		# UX
 		number = true;
@@ -36,6 +39,7 @@
 		tabstop = 4;
 		softtabstop = 4;
 		smartindent = true;
+		breakindent = true;
 
 		# Split
 		splitbelow = true;
