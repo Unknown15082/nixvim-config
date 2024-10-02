@@ -4,6 +4,7 @@
 		./colorscheme.nix
 		./cmp.nix
 		./options.nix
+		./keymaps.nix
 		./vimtex.nix
 		./telescope.nix
 		./lsp
