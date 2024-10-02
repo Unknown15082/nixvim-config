@@ -5,6 +5,7 @@
 		./cmp.nix
 		./options.nix
 		./vimtex.nix
+		./telescope.nix
 		./lsp
 		./treesitter
 
