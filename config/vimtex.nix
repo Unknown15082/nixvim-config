@@ -11,6 +11,11 @@
 				aux_dir = "aux/";
 				out_dir = "dir/";
 			};
+
+			quickfix_ignore_filters = [
+				"Underfull"
+				"Overfull"
+			];
 		};
 	};
 }
