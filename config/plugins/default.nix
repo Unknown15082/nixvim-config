@@ -5,5 +5,6 @@
 		./lualine.nix
 		./telescope.nix
 		./treesitter.nix
+		./lsp
 	];
 }
