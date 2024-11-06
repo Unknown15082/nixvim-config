@@ -7,6 +7,7 @@
 		./keymaps.nix
 		./vimtex.nix
 		./telescope.nix
+		./lualine.nix
 		./lsp
 		./treesitter
 
