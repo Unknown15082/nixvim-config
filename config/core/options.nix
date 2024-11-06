@@ -46,4 +46,9 @@
 		splitright = true;
 		splitkeep = "cursor";
 	};
+
+	diagnostics = {
+		update_in_insert = true;
+		severity_sort = true;
+	};
 }

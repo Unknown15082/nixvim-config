@@ -18,12 +18,12 @@
 
 		keymaps = {
 			"<leader>ff" = "find_files";
-			"<leader>ss" = "colorscheme";
-			"<leader>sb" = "buffers";
-			"<leader>sc" = "commands";
-			"<leader>sk" = "keymaps";
-			"<leader>sg" = "live_grep";
-			"<leader>sw" = "grep_string";
+			"<leader>fs" = "colorscheme";
+			"<leader>fb" = "buffers";
+			"<leader>fc" = "commands";
+			"<leader>fk" = "keymaps";
+			"<leader>fg" = "live_grep";
+			"<leader>fw" = "grep_string";
 		};
 
 		settings = {

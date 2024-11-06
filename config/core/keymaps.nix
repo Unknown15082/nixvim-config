@@ -1,11 +1,5 @@
 {
 	keymaps = [
-		# Open oil.nvim in floating window
-		{
-			key = "<Space><Space><Space>";
-			mode = [ "n" ];
-			action = "<cmd>Oil --float<CR>";
-		}
 		# Visual line j/k
 		{
 			key = "j";
