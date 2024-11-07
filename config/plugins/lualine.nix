@@ -44,6 +44,9 @@
 							readonly = "";
 							unnamed = "";
 						};
+						padding = {
+							left = 0;
+						};
 					}
 				];
 
