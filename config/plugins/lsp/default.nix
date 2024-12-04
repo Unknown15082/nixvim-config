@@ -4,6 +4,7 @@
 		./rust.nix
 		./cp.nix
 		./markdown.nix
+		./haskell.nix
 	];
 
 	plugins.lsp.enable = true;
