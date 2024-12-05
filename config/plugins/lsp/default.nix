@@ -5,6 +5,7 @@
 		./cp.nix
 		./markdown.nix
 		./haskell.nix
+		./nixd.nix
 	];
 
 	plugins.lsp.enable = true;
