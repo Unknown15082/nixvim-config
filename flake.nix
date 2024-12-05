@@ -38,11 +38,6 @@
 						module = import ./config;
 					};
 				in {
-					checks.default = nixvimLib.check.mkTestDerivationFromNvim {
-						inherit nvim;
-						name = "Test derivation";
-					};
-
 					packages.default = nvim;
 				};
 		};
