@@ -20,6 +20,4 @@
 			cpp.exclude = [ "clangd" ];
 		};
 	};
-
-	plugins.lsp.servers.bufls.enable = false; # WTF is NixVim doing with bufls???
 }
