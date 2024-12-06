@@ -23,12 +23,16 @@
 			};
 			
 			keymaps.lspBuf = {
+				"<leader>ca" = "code_action";
+				"gD" = "declaration";
 				"gd" = "definition";
-				"gD" = "references";
-				"gt" = "type_definition";
-				"gi" = "implementation";
+				"<leader>fm" = "format";
 				"K"  = "hover";
-				"fm" = "format";
+				"gI" = "implementation";
+				"gr" = "references";
+				"<leader>rn" = "rename";
+				"gy" = "type_definition";
+				"gs" = "signature_help";
 			};
 		};
 
