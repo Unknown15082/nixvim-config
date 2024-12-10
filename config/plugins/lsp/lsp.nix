@@ -2,12 +2,15 @@
 	plugins = {
 		lsp = {
 			enable = true;
+			inlayHints = true;
+
 			servers = {
 				clangd.enable = true;
 				eslint.enable = true;
 				tailwindcss.enable = true;
 				cssls.enable = true;
 				html.enable = true;
+				hyprls.enable = true;
 
 				hls = {
 					enable = true;
