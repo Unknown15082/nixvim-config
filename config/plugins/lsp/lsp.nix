@@ -12,6 +12,7 @@
 				cssls.enable = true;
 				html.enable = true;
 				hyprls.enable = true;
+				gopls.enable = true;
 
 				hls = {
 					enable = true;
