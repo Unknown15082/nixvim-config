@@ -13,6 +13,8 @@
 				html.enable = true;
 				hyprls.enable = true;
 				gopls.enable = true;
+				basedpyright.enable = true;
+				ruff.enable = true;
 
 				hls = {
 					enable = true;
