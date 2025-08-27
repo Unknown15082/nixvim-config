@@ -15,6 +15,7 @@
 				gopls.enable = true;
 				ruff.enable = true;
 				basedpyright.enable = true;
+				qmlls.enable = true;
 
 				hls = {
 					enable = true;
