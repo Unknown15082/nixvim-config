@@ -15,7 +15,6 @@
 				gopls.enable = true;
 				ruff.enable = true;
 				basedpyright.enable = true;
-				qmlls.enable = true;
 
 				hls = {
 					enable = true;
@@ -27,6 +26,11 @@
 							formattingProvider = "stylish-haskell";
 						};
 					};
+				};
+
+				qmlls = {
+					enable = true;
+					rootMarkers = [ "shell.qml" ];
 				};
 			};
 			
@@ -47,32 +51,32 @@
 		clangd-extensions.enable = true;
 		typescript-tools.enable = true;
 		rustaceanvim.enable = true;
-		crates-nvim.enable = true;
+		crates.enable = true;
 		markdown-preview.enable = true;
-		nvim-jdtls = {
-			enable = true;
-			configuration.__raw = ''vim.fn.stdpath 'cache' .. "/jdtls/config"'';
-			data.__raw = "vim.fn.stdpath 'cache' .. '/jdtls/' .. vim.fn.fnamemodify(vim.fn.getcwd(), ':t')";
-
-			settings.java = {
-				configuration = {
-					updateBuildConfiguration = "interactive";
-					runtimes = [ pkgs.jdk ];
-				};
-				format = {
-					# TODO: Enable this after deciding the format used
-					enabled = false;
-				};
-				implementationCodeLens.enabled = true;
-				inlayHints.parameterNames.enabled = "all";
-				references.includeDecompiledSources = true;
-				referencesCodeLens.enabled = true;
-				signatureHelp.enabled = true;
-
-				eclipse.downloadSources = true;
-				maven.downloadSources = true;
-			};
-		};
+		# nvim-jdtls = {
+		# 	enable = true;
+		# 	configuration.__raw = ''vim.fn.stdpath 'cache' .. "/jdtls/config"'';
+		# 	data.__raw = "vim.fn.stdpath 'cache' .. '/jdtls/' .. vim.fn.fnamemodify(vim.fn.getcwd(), ':t')";
+		#
+		# 	settings.java = {
+		# 		configuration = {
+		# 			updateBuildConfiguration = "interactive";
+		# 			runtimes = [ pkgs.jdk ];
+		# 		};
+		# 		format = {
+		# 			# TODO: Enable this after deciding the format used
+		# 			enabled = false;
+		# 		};
+		# 		implementationCodeLens.enabled = true;
+		# 		inlayHints.parameterNames.enabled = "all";
+		# 		references.includeDecompiledSources = true;
+		# 		referencesCodeLens.enabled = true;
+		# 		signatureHelp.enabled = true;
+		#
+		# 		eclipse.downloadSources = true;
+		# 		maven.downloadSources = true;
+		# 	};
+		# };
 
 		lsp-format.enable = true;
 		nvim-autopairs = {
