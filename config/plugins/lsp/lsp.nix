@@ -32,6 +32,14 @@
 					enable = true;
 					rootMarkers = [ "shell.qml" ];
 				};
+
+				tinymist = {
+					enable = true;
+					settings = {
+						formatterMode = "typstyle";
+						formatterIndentSize = 4;
+					};
+				};
 			};
 			
 			keymaps.lspBuf = {
