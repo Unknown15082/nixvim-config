@@ -61,6 +61,8 @@
 		rustaceanvim.enable = true;
 		crates.enable = true;
 		markdown-preview.enable = true;
+		ts-autotag.enable = true;
+
 		# nvim-jdtls = {
 		# 	enable = true;
 		# 	configuration.__raw = ''vim.fn.stdpath 'cache' .. "/jdtls/config"'';
