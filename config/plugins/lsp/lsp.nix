@@ -15,6 +15,10 @@
 				gopls.enable = true;
 				ruff.enable = true;
 				basedpyright.enable = true;
+				coq_lsp = {
+					enable = true;
+					package = null;
+				};
 
 				hls = {
 					enable = true;
