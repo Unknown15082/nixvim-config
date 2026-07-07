@@ -19,6 +19,7 @@
 					enable = true;
 					package = null;
 				};
+				ocamllsp.enable = true;
 
 				hls = {
 					enable = true;
